@@ -68,6 +68,23 @@ body.dark {
   border-radius: 50%;
 }
 
+#sec{
+  padding: 12px;
+  color:#2196f3;
+  margin:8px;
+  border-color: #2196f3;
+  border:1px;
+  /* border-style: none; */
+  border-radius: 20px;
+}
+
+#sec:hover{
+
+  color: #2196f3;
+  background-color: #050d16;
+  transition: .5s ease-out;
+}
+
 input:checked + .slider {
   background-color: #2196f3;
 }
